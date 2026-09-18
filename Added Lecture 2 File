@@ -1,0 +1,56 @@
+''' Tshirt Shop '''
+(12 * 5) + 3 
+(12 * 7) + 3
+
+''' Rectangular Poster '''
+2 * (420 + 594) = 2028
+2028 * 0.10 = 202.80
+''' It will give me the incorrect answer 1434 instead of 2028 '''
+
+'''String Surprises'''
+red = "red"
+blue = "blue"
+gold = "gold"
+"red" + "blue" ''' it will output as redblue i believe '''
+1+"blue" '''you cannot add a number to a string'''
+
+"Make A Traffic Light"
+
+''' Frame ''' 
+frame = rectangle(40,100,"solid","black")
+
+'''Lights'''
+red = circle(15, "solid", "yellow")
+green = circle(15, "solid", "green")
+red = circle(15,"solid","red")
+overlay-xy(20,20,"red")
+overlay-xy(20,50,"yellow")
+overlay-xy(20,80,"green", frame)
+overlay-xy(16, 100) 
+'''pole is above, code breaks if i put it next to it because there are strings.'''
+
+
+''' Broken Code Hunt '''
+
+'''ORGINAL CODE = A rectangle with width 50 and height 20, solid black rectangle(50, "solid", 20, "black") '''
+''' They went wrong with rectangle(50,"solid", 20, black. it should be " rectangle(50,20,"solid","black")) '''
+
+circle(30,"Solid","red") 
+''' They forgot to add the quotes around solid '''
+
+
+'''Flag or Shield'''
+''' this is the flag'''
+'''bg = background'''
+bg = rectangle(150,100, "solid", "blue")
+stripe = rectangle(150,30,"solid","yellow")
+circle = circle(20, "solid," "red")
+flag = overlay-xy(0,70, stripe, bg)
+
+'''this is the shield variation'''
+bg = rotate(45, square(150, "solid","blue"))
+stripe = rectangle(30,150, "solid", "yellow")
+circle = circle(40, "solid", "red")
+shield = overlay(circle,overlay(stripe, bg))
+
+'''I think this is it now, i hope this is okay. But if there is any errors please tell me as i would like to improve and solidify the basics and stuff. 🫡'''
